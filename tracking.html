@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastrea tu Carga - ASLI</title>
+    <meta name="description" content="Rastrea el estado de tu carga en tiempo real con ASLI - Asesorías y Servicios Logísticos Integrales">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="main-content">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="IMG/logo.png" alt="ASLI Logo">
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Inicio</a>
+                    <a href="index.html#about" class="nav-link">Quiénes Somos</a>
+                    <a href="index.html#services" class="nav-link">Servicios</a>
+                    <a href="index.html#fruits" class="nav-link">Industria Frutícola</a>
+                    <a href="index.html#navieras" class="nav-link">Socios</a>
+                    <a href="index.html#contact" class="nav-link">Contacto</a>
+                    <div class="nav-social-mobile">
+                        <a href="https://linkedin.com/company/aslichile" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/asli_chile" target="_blank" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/56912345678" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="nav-social">
+                    <a href="https://linkedin.com/company/asli" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://instagram.com/asli_chile" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/56912345678" target="_blank" class="social-link" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Tracking Hero Section -->
+        <section class="tracking-hero">
+            <div class="particles-container">
+                <div class="particles">
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">Rastrea tu Carga</h1>
+                    <p class="section-subtitle">Consulta el estado de tu envío en tiempo real</p>
+                </div>
+                
+                <!-- Tracking Form -->
+                <div class="tracking-form-container">
+                    <div class="tracking-form">
+                        <form id="trackingForm">
+                            <div class="form-group">
+                                <input type="text" id="trackingNumber" name="trackingNumber" required>
+                                <label for="trackingNumber">Número de Seguimiento</label>
+                            </div>
+                            <div class="form-group">
+                                <select id="trackingType" name="trackingType" required>
+                                    <option value="">Selecciona el tipo de envío</option>
+                                    <option value="maritime">Transporte Marítimo</option>
+                                    <option value="air">Transporte Aéreo</option>
+                                    <option value="land">Transporte Terrestre</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-search"></i>
+                                Rastrear Carga
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Tracking Results -->
+                <div class="tracking-results" id="trackingResults" style="display: none;">
+                    <div class="tracking-info">
+                        <h3>Información del Envío</h3>
+                        <div class="tracking-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Número de Seguimiento:</span>
+                                <span class="detail-value" id="resultNumber">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Estado:</span>
+                                <span class="detail-value status" id="resultStatus">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Origen:</span>
+                                <span class="detail-value" id="resultOrigin">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Destino:</span>
+                                <span class="detail-value" id="resultDestination">-</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Fecha Estimada de Llegada:</span>
+                                <span class="detail-value" id="resultETA">-</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tracking Timeline -->
+                    <div class="tracking-timeline">
+                        <h3>Historial de Seguimiento</h3>
+                        <div class="timeline" id="trackingTimeline">
+                            <!-- Timeline items will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No Results Message -->
+                <div class="no-results" id="noResults" style="display: none;">
+                    <div class="no-results-content">
+                        <i class="fas fa-search"></i>
+                        <h3>No se encontraron resultados</h3>
+                        <p>Verifica que el número de seguimiento sea correcto o contacta con nuestro equipo de soporte.</p>
+                        <a href="index.html#contact" class="btn btn-secondary">Contactar Soporte</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Section -->
+        <section class="tracking-help">
+            <div class="particles-container">
+                <div class="particles">
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">¿Necesitas Ayuda?</h2>
+                    <p class="section-subtitle">Información útil para el rastreo de tu carga</p>
+                </div>
+                <div class="help-grid">
+                    <div class="help-card">
+                        <div class="help-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h3>¿Dónde encontrar mi número de seguimiento?</h3>
+                        <p>El número de seguimiento se encuentra en tu factura comercial, conocimiento de embarque o confirmación de envío.</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>¿Con qué frecuencia se actualiza?</h3>
+                        <p>La información se actualiza en tiempo real. Los cambios de estado se reflejan inmediatamente en nuestro sistema.</p>
+                    </div>
+                    <div class="help-card">
+                        <div class="help-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>¿Problemas con el rastreo?</h3>
+                        <p>Si tienes problemas para rastrear tu carga, contacta con nuestro equipo de soporte técnico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="IMG/logo.png" alt="ASLI Logo">
+                    <p>NUESTRO LÍMITE ES TU DESTINO</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="index.html#services">Transporte Multimodal</a></li>
+                            <li><a href="index.html#services">Logística Frutícola</a></li>
+                            <li><a href="index.html#services">Servicios Aduaneros</a></li>
+                            <li><a href="index.html#services">Asesoría Logística</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="index.html#about">Quiénes Somos</a></li>
+                            <li><a href="index.html#about">Nuestro Equipo</a></li>
+                            <li><a href="index.html#partners">Socios</a></li>
+                            <li><a href="index.html#contact">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ASLI - Asesorías y Servicios Logísticos Integrales Ltda. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+    <script src="JS/tracking.js"></script>
+</body>
+</html> 
