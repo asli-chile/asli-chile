@@ -1,53 +1,86 @@
-# Manual de Usuario - ASLI Rastreo de Carga
+﻿
+<pre align="center">
+╔══════════════════════════════════════════════════════════╗
+║  T.A.P.T. — TERMINAL TÁCTICA PERSONAL v2.1               ║
+║  CLASIFICACIÓN: USO OPERATIVO · NODO ASLI                ║
+║  ERA: SISTEMAS ANALÓGICO-DIGITALES (estética 1962–1989)  ║
+╠══════════════════════════════════════════════════════════╣
+║  FOSFÓRO VERDE CRT · CANAL: CÓDIGO FUENTE                ║
+╚══════════════════════════════════════════════════════════╝
+</pre>
 
-## ¿Qué es ASLI?
+<div align="center">
 
-ASLI es una empresa de logística que te permite rastrear el estado de tu carga en tiempo real. Este sitio web te ofrece una forma fácil y visual de hacer seguimiento a tus envíos.
+<img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&pause=900&color=33FF33&center=true&vCenter=true&width=640&height=50&lines=CONEXI%C3%93N+ESTABLE+%E2%80%94+RASTREO+DE+CARGA;M%C3%93DULOS%3A+HTML+%C2%B7+JS+%C2%B7+VITE+%C2%B7+GIT;OPERADOR%3A+RODRIGO+C%C3%81CERES+%C2%B7+CHILE" alt="Estado del terminal" />
 
-## Cómo usar el sitio
+<br />
 
-### Página Principal
-- **"Inicio"**: Te lleva a la página principal o hace scroll hacia arriba si ya estás ahí
-- **"Rastrea tu Carga"**: Te lleva directamente a la sección de rastreo
+[![UPLINK](https://img.shields.io/badge/UPLINK-MAIL-33ff33?style=for-the-badge&labelColor=0a120a)](mailto:rodrigo.caceres@asli.cl)
+[![GH-NODE](https://img.shields.io/badge/GH--NODE-asli--chile-33ff33?style=for-the-badge&labelColor=0a120a&logo=github&logoColor=33ff33)](https://github.com/asli-chile)
+[![DEMO](https://img.shields.io/badge/SUBSYS-CARRUSELES-33ff33?style=for-the-badge&labelColor=0a120a)](https://asli-chile.github.io/carruseles/)
 
-### Rastrear tu Carga
-1. Haz clic en "Rastrea tu Carga"
-2. Ingresa tu número de seguimiento en el formulario
-3. Haz clic en "Rastrear"
-4. Verás:
-   - Estado actual de tu carga
-   - Historial completo de movimientos
-   - Información detallada del envío
+</div>
 
-### En tu Móvil
-El sitio se adapta automáticamente a tu pantalla. Los efectos visuales se ajustan para que funcione perfectamente en dispositivos móviles.
+<br />
 
-## Efectos Visuales
+<pre>
+&gt; cat /etc/operador.log
+────────────────────────────────────────
+  NOMBRE ........... Rodrigo Cáceres
+  UNIDAD ........... ASLI (logística / rastreo)
+  ZONA ............. Chile
+  MANDATO .......... interfaces claras, front reusable, docs útiles
+────────────────────────────────────────
+</pre>
 
-El sitio incluye:
-- Fondos que cambian de color suavemente
-- Partículas flotantes en el fondo
-- Aviones animados que vuelan por la pantalla
-- Botones con efectos de luz
+<br />
 
-## Solución de Problemas
+### `> MÓDULOS_INSTALADOS`
 
-### Si no ves los efectos:
-- Asegúrate de que JavaScript esté activado en tu navegador
-- Actualiza la página (F5)
+<p>
+  <img alt="HTML" src="https://img.shields.io/badge/HTML-0a120a?style=flat-square&logo=html5&logoColor=33ff33&labelColor=0a120a" />
+  <img alt="JS" src="https://img.shields.io/badge/JS-0a120a?style=flat-square&logo=javascript&logoColor=33ff33&labelColor=0a120a" />
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-0a120a?style=flat-square&logo=vite&logoColor=33ff33&labelColor=0a120a" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-0a120a?style=flat-square&logo=git&logoColor=33ff33&labelColor=0a120a" />
+</p>
 
-### Si la navegación no funciona:
-- Intenta abrir el sitio desde un servidor web
-- Verifica que estés usando un navegador moderno
+<br />
 
-### Si se ve mal en móvil:
-- Rota la pantalla o ajusta el zoom
-- Los efectos están optimizados para cada dispositivo
+### `> REGISTRO_DE_PROYECTOS`
 
-## Soporte
+| ENLACE | NOTA DE MISIÓN |
+|--------|----------------|
+| [**carruseles**](https://github.com/asli-chile/carruseles) | Librería de carruseles · [demo en vivo](https://asli-chile.github.io/carruseles/) |
+| [**asli**](https://github.com/asli-chile/asli) | *(Ajusta URL si el repo principal tiene otro nombre.)* |
 
-Para ayuda técnica o sugerencias, contacta al equipo de desarrollo.
+<details>
+<summary><code>&gt; ABRIR: MANUAL_DE_USUARIO (archivo clasificado)</code></summary>
 
----
+[Manual — ASLI Rastreo de carga](https://github.com/asli-chile/asli-chile/blob/main/MANUAL_ASLI.md) — mueve el texto largo del perfil a `MANUAL_ASLI.md` o cambia este enlace a wiki / otro repo.
 
-**ASLI - Tu carga, nuestro compromiso** 
+</details>
+
+<br />
+
+### `> TELEMETRÍA_GITHUB (sensores externos)`
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=asli-chile&show_icons=true&hide_border=false&border_color=33ff33&bg_color=0a120a&title_color=33ff33&icon_color=33ff33&text_color=7fff7f&ring_color=33ff33&custom_title=OPERADOR%3A%20asli-chile" alt="Stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asli-chile&layout=compact&hide_border=false&border_color=33ff33&bg_color=0a120a&title_color=33ff33&text_color=7fff7f&langs_count=8" alt="Lenguajes" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-chile&background=0A120A&border=33FF33&stroke=33FF33&ring=33FF33&fire=33FF33&currStreakNum=33FF33&sideNums=7FFF7F&currStreakLabel=33FF33&sideLabels=33FF33&dates=448844" alt="Racha" />
+</p>
+
+<br />
+
+<pre align="center">
+// FIN DE TRANSMISIÓN — apagar tubo de rayos catódicos con cuidado //
+</pre>
+
+<div align="center">
+
+<sub>Las tarjetas de telemetría dependen de servicios públicos; si no cargan, es el nodo remoto, no tu terminal.</sub>
+
+</div>
