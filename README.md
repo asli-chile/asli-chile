@@ -1,6 +1,8 @@
 ﻿<div align="center">
 
-<img src="https://raw.githubusercontent.com/asli-chile/asli-chile/main/github-profile/profile-banner.svg" alt="T.A.P.T. — banner terminal CRT" width="100%" />
+<img src="https://cdn.jsdelivr.net/gh/asli-chile/asli-chile@main/github-profile/profile-banner.png" alt="T.A.P.T. - banner terminal CRT" width="100%" />
+
+<sub>[Versión vectorial (SVG)](https://github.com/asli-chile/asli-chile/blob/main/github-profile/profile-banner.svg?raw=1)</sub>
 
 <br /><br />
 
