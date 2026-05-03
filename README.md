@@ -1,7 +1,4 @@
-﻿-->
-
-<div align="center">
-
+﻿
 <img src="./github-profile/profile-banner.svg" alt="T.A.P.T. — banner terminal CRT" width="100%" />
 
 <br /><br />
