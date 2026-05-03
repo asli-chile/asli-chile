@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/asli-chile/asli-chile/main/github-profile/profile-banner.svg" alt="T.A.P.T. — banner terminal CRT" width="100%" />
+<img src="./github-profile/profile-banner.svg" alt="T.A.P.T. — banner terminal CRT" width="100%" />
 
 <br /><br />
 
@@ -61,8 +61,8 @@
 
 ### `> TELEMETRÍA`
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=asli-chile&show_icons=true&hide_border=false&border_color=33ff33&bg_color=041004&title_color=33ff33&icon_color=33ff33&text_color=7fff7f&ring_color=33ff33&rank_icon=github&custom_title=OPERADOR%3A%20asli-chile" alt="Estadísticas" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asli-chile&layout=compact&hide_border=false&border_color=33ff33&bg_color=041004&title_color=33ff33&text_color=7fff7f&langs_count=8" alt="Lenguajes" />
+<img height="180" src="https://github-readme-stats.shion.dev/api?username=asli-chile&show_icons=true&hide_border=false&border_color=33ff33&bg_color=041004&title_color=33ff33&icon_color=33ff33&text_color=7fff7f&ring_color=33ff33&rank_icon=github&custom_title=OPERADOR%3A%20asli-chile" alt="Estadísticas" />
+<img height="180" src="https://github-readme-stats.shion.dev/api/top-langs/?username=asli-chile&layout=compact&hide_border=false&border_color=33ff33&bg_color=041004&title_color=33ff33&text_color=7fff7f&langs_count=8" alt="Lenguajes" />
 
 </td>
 </tr>
@@ -103,6 +103,6 @@
 // FIN DE TRANSMISIÓN — CRT EN REPOSO //
 </pre>
 
-<sub>Las tarjetas externas (stats, trofeos, gráfico) dependen de servicios públicos; si no cargan, reintenta más tarde.</sub>
+<sub>Las tarjetas de estadísticas usan un mirror comunitario (el endpoint oficial en Vercel suele estar pausado). Trofeos, gráfico de actividad y racha también son servicios externos.</sub>
 
 </div>
