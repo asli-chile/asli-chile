@@ -89,7 +89,7 @@
 
 ### `> ACTIVIDAD_EN_RED`
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=asli-chile&bg_color=041004&color=7fff7f&line=33ff33&point=55ff55&area=true&hide_border=false&custom_title=Commits%20%28%C3%BAltimos%20d%C3%ADas%29" alt="Gráfico de actividad" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=asli-chile&bg_color=041004&color=7fff7f&line=33ff33&point=55ff55&area=true&hide_border=false&custom_title=Actividad%20reciente" alt="Gráfico de actividad" />
 
 <br /><br />
 
